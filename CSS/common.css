@@ -101,7 +101,7 @@ body {
   background-color: teal;
 }
 
-.hero-button {
+.hero .button.primary {
   color: var(--logo-accent-footer);
   background-color: var(--accent-color);
   text-decoration: none;
@@ -189,4 +189,53 @@ body {
   letter-spacing: 0.03em;
   /* временно */
   background-color: teal;
+}
+
+/* ПОРТФОЛИО */
+
+.main-nav .primary:hover,
+.main-nav .primary:focus,
+.main-nav .secondary:hover,
+.main-nav .secondary:focus {
+  color: var(--logo-accent-footer);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.main-nav .primary,
+.main-nav .secondary {
+  color: var(--primary-text-color);
+  border-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.projects-list {
+  list-style: none;
+}
+
+.projects-title {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-description {
+  color: var(--secondary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
