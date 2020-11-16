@@ -17,55 +17,176 @@
     background: rgba(255,255,255,0.6);
 } */
 
-
-
 :root {
-    --primary-text-color: #212121;
-    --accent-color: #2196F3;
-    --logo-accent-header: #000000;
-    --logo-accent-footer: #FFFFFF;
-    --secondary-text-color:  #757575;
-    --contacts-color-footer: rgba(255,255,255,0.6);
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-accent-header: #000000;
+  --logo-accent-footer: #ffffff;
+  --secondary-text-color: #757575;
+  --contacts-color-footer: rgba(255, 255, 255, 0.6);
 }
 
+/* HEADER */
 /* Logo */
+
+.logo {
+  text-decoration: none;
+}
 .accent {
-    color:var(--accent-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+  color: var(--accent-color);
 }
 .black {
-    color: var(--logo-accent-header);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+  color: var(--logo-accent-header);
+}
+.accent,
+.black,
+.white {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 body {
-    background-color: var(--logo-accent-footer);
-    color: var(--primary-text-color);
+  background-color: var(--logo-accent-footer);
+  color: var(--primary-text-color);
 }
 
-
-
-
-
-
-
-
-
-
-}.site-nav .link.current {
-  color: green;
+.site-nav a {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.page-nav .link {
-  color: teal;
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .contacts {
+  color: var(--secondary-text-color);
+}
+
+/* .link-studio-current:active,
+.link-portfolio-current:active {
+    color: var(--accent-color);
+} */
+
+.list {
+  list-style-type: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero-title {
+  color: var(--logo-accent-footer);
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* временно: */
+  background-color: teal;
+}
+
+.hero-button {
+  color: var(--logo-accent-footer);
+  background-color: var(--accent-color);
+  text-decoration: none;
+  border-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* MAIN */
+
+.feature-list,
+.work-list,
+.team-list {
+  list-style-type: none;
+}
+
+.feature-title {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+.feature-description {
+  color: var(--secondary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.work-title,
+.team-title {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  color: var(--secondary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* FOOTER */
+.white {
+  color: var(--logo-accent-footer);
+  /* временно */
+  background-color: teal;
+}
+.address {
+  color: var(--logo-accent-footer);
+}
+.contacts-footer {
+  color: var(--contacts-color-footer);
+}
+.address,
+.contacts-footer {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* временно */
+  background-color: teal;
 }
