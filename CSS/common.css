@@ -1,0 +1,71 @@
+/* цвет акцент {
+   background: #2196F3
+}
+лого цвет акцент хедер {
+    background: #000000;
+}
+лого цвет акцент футер {
+    background: #FFFFFF;
+}
+основной цвет текста {
+    background: #212121;
+}
+цвет контактов и подписей {
+    background: #757575;
+}
+цвет контактов футер {
+    background: rgba(255,255,255,0.6);
+} */
+
+
+
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --logo-accent-header: #000000;
+    --logo-accent-footer: #FFFFFF;
+    --secondary-text-color:  #757575;
+    --contacts-color-footer: rgba(255,255,255,0.6);
+}
+
+/* Logo */
+.accent {
+    color:var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.black {
+    color: var(--logo-accent-header);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--logo-accent-footer);
+    color: var(--primary-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+}.site-nav .link.current {
+  color: green;
+}
+
+.page-nav .link {
+  color: teal;
+}
