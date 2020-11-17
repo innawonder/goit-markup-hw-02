@@ -79,7 +79,7 @@ body {
 } */
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .contacts:hover,
@@ -106,7 +106,7 @@ body {
   background-color: var(--accent-color);
   text-decoration: none;
   border-color: var(--accent-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -114,12 +114,6 @@ body {
 }
 
 /* MAIN */
-
-.feature-list,
-.work-list,
-.team-list {
-  list-style-type: none;
-}
 
 .feature-title {
   color: var(--primary-text-color);
@@ -216,10 +210,6 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-}
-
-.projects-list {
-  list-style: none;
 }
 
 .projects-title {
