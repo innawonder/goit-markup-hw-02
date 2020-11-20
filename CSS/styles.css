@@ -184,8 +184,6 @@ body {
 }
 .white {
   color: var(--logo-accent-footer);
-  /* временно */
-  background-color: teal;
 }
 .address {
   color: var(--logo-accent-footer);
@@ -199,8 +197,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* временно */
-  background-color: teal;
   text-decoration: none;
   font-style: normal;
 }
